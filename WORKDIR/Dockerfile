@@ -1,4 +1,4 @@
 FROM almalinux:9
 RUN cd /tmp
-RUN PWD
+RUN pwd
 CMD ["sleep","1000"]
